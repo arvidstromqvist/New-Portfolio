@@ -2327,8 +2327,7 @@ body{
 */
 
 .before img, .after img{
-    max-width: 80%;
-    max-height: 80%;
+    width: 80%;
     object-fit: contain;
 }
 
@@ -2359,12 +2358,11 @@ body{
 
     .before, .after{
         margin: 0 auto;
-        max-width: 100%;
+        width: 100%;
     }
 
     .before img, .after img{
-        max-width: 100%;
-        max-height: 100%;
+        width: 100%;
     }
 
     
