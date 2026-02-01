@@ -743,9 +743,10 @@ main{
 
 .about_text{
     font-size: 1.2em;
-    line-height: 1.6em;
+    line-height: 1.4em;
     font-family: "Inter";
-    font-weight: 200;
+    font-weight: 300;
+    color: #b0b0b0;
 }
 
 
@@ -792,7 +793,12 @@ main{
     }
 }
 
+@media screen and (max-width: 900px){
+    .about{
+        padding: 0 0em 8em 0em;
+    }
 
+}
 
 /* SKILLS */
 
