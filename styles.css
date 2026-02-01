@@ -425,7 +425,7 @@ main{
     aspect-ratio: 4/5;
     height: auto;
     max-width: 28rem;
-    
+    min-width: 22rem;
     position: relative;
     
     border-radius: 20px;
